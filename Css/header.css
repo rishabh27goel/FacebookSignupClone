@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;;
+}
+
+.container{
+    margin-top: -22px;
+    height: 700px;
+}
+
+#main-header{
+    margin: 0;
+    width: 100%;
+    height: 9.4%;
+    padding: 20px 0px;
+    background-color:#3C589B;
+    opacity: 0.98;
+}
+
+#main-header h1{
+    padding-left: 11.5%;
+    padding-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    font-size: 42px;
+    letter-spacing: -0.03em;
+}
+
+.head-end{
+    font-weight: 200;
+    margin-top: -7.3%;
+    padding-left: 20px;
+    color: white;
+    float: right;
+    width: 42.5%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12.4px;
+}
+.email-head{
+    line-height: 1.9em;
+    float: left;
+}
+
+.password-head{
+    line-height: 1.8em;
+    width:69%;
+    float: right;
+
+}
+
+.email-head input{
+    width: 140px;
+    height: 17px;
+    padding: 2px;
+    outline-color: transparent;
+    outline-style: none;
+    border: 0.5px solid black;
+}
+.password-head input{
+    width: 140px;
+    height: 17px;
+    padding: 2px;
+    outline-color: transparent;
+    outline-style: none;
+    border: 0.5px solid black;
+}
+
+.btn-1{
+    float: right;
+    margin-top: -23px;
+    margin-right: 143px;
+    height: 23px;
+    color: white;
+    background-color: #356cac9f;
+    outline-style: none;
+    border: 0.1px solid #7294e4;
+} 
+
+.btn-1:hover{
+    background-color: #91b9e79f;
+} 
+
+.head-end a{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a9b2c4;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 12px;
+    top: 8px;
+}
+.head-end a:hover{
+    text-decoration: underline;
+}

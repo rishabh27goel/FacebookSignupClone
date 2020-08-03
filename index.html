@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <title> Facebook Clone </title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="Css/header.css">
+        <link rel="stylesheet" type="text/css" href="Css/bodyform.css">
+        <link rel="stylesheet" type="text/css" href="Css/validation.css">
+        <link rel="stylesheet" type="text/css" href="Css/messageBox.css">
+        <link rel="stylesheet" type="text/css" href="Css/questionModal.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <header id="main-header">
+                <div class="head">
+                    <h1> facebook </h1>
+
+                </div>
+
+                <div class="head-end">
+                    <div class="email-head">
+                        <label>Email or phone
+                        <br/>
+                        <input type="text">
+                        </label>
+                    </div>
+                    <div class="password-head">
+                        <label> Password 
+                        <br/>
+                        <input type="password">
+                        </label>
+                    </div>
+                    <input class="btn-1" type="button" value="Log In">
+                
+                    <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=royal_blue_bar"> Forgotten account?</a>
+                </div>
+        
+            </header>
+
+            <section id="main-body">
+                
+                <div class="picture">
+                    <h1>Facebook helps you connect and share with the people in your life.</h1>
+                    <img src="Images/facebook.png">
+                </div>
+                
+                <div class="form-main">
+
+                    <h1 style="font-size: 36px; color: rgba(17, 16, 16, 0.863)">Create an account</h1>
+                    <br/>
+                    <br/>
+                    <p style="font-size:18px; letter-spacing: 0.5px;">It's quick and easy.</p>
+                
+                    <div class="form-element">
+                
+                        <!-- Firstname field-->
+                        <div class="message-box-1">
+                            <h4> What's your name? </h4>
+                        </div>
+
+                        <input class="firstname" value="" type="text" placeholder="First name">
+                        <i class="circle-1 fa fa-exclamation-circle" aria-hidden="true"></i>
+
+                        <!-- Surname field-->
+                        <div class="message-box-2">
+                            <h4> What's your name? </h4>
+                        </div>
+
+                        <input class="surname" type="text" placeholder="Surname">
+                        <i class="circle-2 fa fa-exclamation-circle" aria-hidden="true"></i>
+
+                        <!-- Enail Field-->
+                        <div class="message-box-3">
+                            <h4> You'll use this when you log in and if you ever need to reset your password.</h4>
+                        </div>
+
+                        <input class="email" type="email" placeholder="Mobile number or email address">
+                        <i class="circle-3 fa fa-exclamation-circle" aria-hidden="true"></i>
+
+                        <!-- Password Field-->
+                        <div class="message-box-4">
+                            <h4> Enter a combination of at least six numbers, letter and and punctuation marks (suct as ! and &).</h4>
+                        </div>
+
+                        <input class="password" type="password" placeholder="New password">
+                        <i class="circle-4 fa fa-exclamation-circle" aria-hidden="true"></i>
+
+                        <!-- Date of Birth Field-->
+                        <div class="message-box-5">
+                            <h4> Select your date of birth. You can change who can see this later.</h4>
+                        </div>
+
+                        <div class="dob">
+                        <h3><b> Date of birth</b></h3>
+                        
+                        <select class="day" name="day" value="day">
+                            <option value="0">Day</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                        </select>
+
+                        <select class="month" name="month" value="month">
+                            <option value="0">Month</option>
+                            <option value="1">Jan</option>
+                            <option value="2">Feb</option>
+                            <option value="3">Mar</option>
+                            <option value="4">Apr</option>
+                            <option value="5">May</option>
+                            <option value="6">Jun</option>
+                            <option value="7">Jul</option>
+                            <option value="8">Aug</option>
+                            <option value="9">Sept</option>
+                            <option value="10">Oct</option>
+                            <option value="11">Nov</option>
+                            <option value="12">Dec</option>        
+                        </select>
+
+                        <select class="year" name="year" value="year">
+                            <option value="0">Year</option>
+                            <option value="1">1999</option>
+                            <option value="2">2000</option>
+                            <option value="3">2001</option>
+                            <option value="4">2002</option>
+                            <option value="5">2003</option>
+                            <option value="6">2004</option>
+                            <option value="7">2005</option>
+                            <option value="8">2006</option>
+                            <option value="9">2007</option>
+                            <option value="10">2008</option>
+                            <option value="11">2009</option>
+                            <option value="12">2010</option>
+                            <option value="13">2011</option>
+                            <option value="14">2012</option>
+                            <option value="15">2013</option>
+                            <option value="16">2014</option>
+                            <option value="17">2015</option>
+                            <option value="18">2016</option>
+                            <option value="19">2017</option>
+                            <option value="20">2018</option>
+                            <option value="21">2019</option>
+                            <option value="22">2020</option>
+                            <option value="23">2021</option>
+                            <option value="24">2022</option>
+                            <option value="25">2023</option>
+                            <option value="26">2024</option>
+                            <option value="27">2025</option>
+
+                        </select>
+
+                        <div class="questionBox1">
+                            <p>
+                                <strong>Providing your date of birth </strong> helps make sure
+                                that you get the right Facebook experience 
+                                for your age. If you want to change who sees
+                                this, go to the About section of your Profile.
+                                For more details, please visit our 
+                                <a href="https://www.facebook.com/privacy/explanation/">Data Policy</a>.
+                            </p>
+                            <hr/>
+                            <button class="btnClose1" onclick="closeBtn1()"> Close </button>
+                        </div>
+
+                        <i class="questionMark-1 fa fa-question-circle" aria-hidden="true" onclick="questMark()"></i> 
+
+                        <i class="circle-5 fa fa-exclamation-circle" aria-hidden="true"></i>
+                        </div>
+
+                        <!-- Gender field -->
+                        <h3> Gender </h3>
+
+                        <div class="gender">
+                        <div class="female">
+                            <input id="female-select" type="radio" name="gender" value="female"> 
+                            <label for="female-select"> Female </label>
+                        </div>
+
+                        <div class="male">
+                            <input id="male-select" type="radio" name="gender" value="male">
+                            <label for="male-select"> Male </label>
+                        </div>
+
+                        <div class="other">
+                            <input id="other-select" type="radio" name="gender" value="other"> 
+                            <label for="other-select"> Custom </label>
+                        </div>
+
+                        <div class="questionBox2">
+                            <p>
+                                You can change who sees your gender on your profile later.
+                                 Select Custom to choose another gender, or if you'd rather not say.
+                            </p>
+                            <hr/>
+                            <button class="btnClose2" onclick="closeBtn2()"> Close </button>
+                        </div>
+                        
+
+                        <i class="questionMark-2 fa fa-question-circle" aria-hidden="true" onclick="questMark1()"></i>                        
+
+                        <i class="circle-6 fa fa-exclamation-circle" aria-hidden="true"></i>                    
+                        </div>
+
+                        
+                        <div class="para">
+                        <p>By clicking Sign Up, you agree to our <a href="#">Terms</a>,<a href="#"> Data 
+                            Policy</a> and <a href="#">Cookie Policy</a>. You may receive SMS 
+                            notifications from us and can opt out at any time.
+                        </p>
+                        </div>
+
+                        <input class="submit-btn" type="submit" name="submit" value="Sign Up">
+                    </div>
+                </div>
+
+            </section>
+
+        </div>
+
+        <footer class="main-footer">
+            <h4  style="margin-top:-15px ;text-align: center">Copyright &copy; 2020 - Rishabh Goel </h4>
+        </footer>
+
+        <script src="Javascript/main.js">
+
+        </script>
+    </body>
+
+</html>
